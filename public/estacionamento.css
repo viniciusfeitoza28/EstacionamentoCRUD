@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #333333;
+    color: #d8dddf;
+    margin: 0;
+    padding: 0;
+    height: 100vh; 
+}
+
+.container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.center h1 p{
+    font-size: 36px;
+    color: #ecf0f1;
+    text-align: center;
+    height: 400px;
+    width: 100%; 
+}
+
+
+.canvas {
+    display: flex;
+    position: absolute;
+    top: 10px;
+    padding-left: 10px;
+    
+}
+
+canvas{
+
+    cursor: pointer;
+    transition: transform 0.2s;    
+}
+
+
+canvas:hover{
+    transform: scale(1.05);
+    border-color: #007bff
+}
+
+.absolute{
+    position: absolute;
+    top: 250px;
+    margin-left: 250px;
+    padding: 20px;
+    border-radius: 5px;
+    border-color: #ecf0f1;
+    border-width: 3px;
+}
+
+.absolute2{
+    position: absolute;
+    top: 330px;
+    margin-left: 250px;
+    padding: 20px;
+    border-radius: 5px;
+    border-color: #ecf0f1;
+    border-width: 3px;
+}
+
+.absolute3{
+    position: absolute;
+    top: 410px;
+    margin-left: 250px;
+    padding: 20px;
+    border-radius: 5px;
+    border-color: #ecf0f1;
+    border-width: 3px;
+}
+
+/*Agendar*/
+#imgBook{
+    position: absolute;
+    top: 0px;
+    margin-left: -45px;
+    width: auto;
+    height: 60px;
+    cursor: pointer;
+    transition: transform 0.2s; 
+}
+
+#imgBook:hover{
+    transform: scale(1.1);
+}
+
+
+/*Editar*/
+
+#imgEdit{
+    position: absolute;
+    top: 0px;
+    margin-left: -50px;
+    width: auto;
+    height: 55px;
+    cursor: pointer;
+    transition: transform 0.2s; 
+}
+
+#imgEdit:hover{
+    transform: scale(1.1);
+}
+
+/* cancelar vaga */
+
+#imgCancel{
+    position: absolute;
+    top: 0px;
+    margin-left: -90px;
+    width: auto;
+    height: 55px;
+    cursor: pointer;
+    transition: transform 0.2s; 
+}
+
+#imgCancel:hover{
+    transform: scale(1.1);
+}
+
+.style{
+    text-decoration: none;
+    color: #d8dddf;
+    color: black;
+}
+
+.border{
+    border: 2px solid #d8dddf;
+    padding: 15px 77px;
+    border-radius: 15px;
+    background-color: white;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.border:hover{
+    transform: scale(1.1);
+}
+
+
+.border2{
+    border: 2px solid #d8dddf;
+    padding: 15px 87px;
+    border-radius: 15px;
+    background-color: white;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.border2:hover{
+    transform: scale(1.1);
+}
+
+
+.border3{
+    border: 2px solid #d8dddf;
+    padding: 15px 45px;
+    border-radius: 15px;
+    background-color: white;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.border3:hover{
+    transform: scale(1.1);
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="canvas elemento">
+            <canvas id="canvas" width="40" height="49"></canvas>       
+    </div> 
+
+
+    <div class="container center">
+        <div class="cadastro-box">
+            <div class="header">
+                <h1>Logar</h1>
+                <p>Preencha os dados abaixo para logar</p>
+            </div>
+
+            <form action="/logar_usuario" method="post" class="cadastro-form">
+                <div class="form-row">
+                    <div class="input-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" class="input-field" placeholder="E-mail">
+                    </div>
+                </div>
+                <div class="form-row duo">
+                    <div class="input-group">
+                        <label for="senha">Senha</label>
+                        <input type="password" id="senha" name="senha" class="input-field" placeholder="Digite aqui">
+                    </div>
+
+                <div class="form-row duo">
+                    <button type="submit" class="submit-btn">Logar</button>
+                </div> 
+                
+            </form>
+        </div>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>
